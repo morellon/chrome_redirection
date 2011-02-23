@@ -4,15 +4,25 @@
   "description": "Avoid intermediary pages, go straight to the download page!",
   "icons": {"128": "icon128.png"},
   "content_scripts": [
-     {
-       "matches": ["http://lix.in/*"],
-       "css": [],
-       "js": ["jquery.js", "lixin.js"]
-     },
-     {
-       "matches": ["http://upmirror.com/*"],
-       "css": [],
-       "js": ["jquery.js", "upmirror.js"]
-     }
+    {
+      "matches": ["http://lix.in/*"],
+      "css": [],
+      "js": ["jquery.js", "lixin.js"]
+    },
+    {
+      "matches": ["http://upmirror.com/*"],
+      "css": [],
+      "js": ["jquery.js", "upmirror.js"]
+    },
+    {
+      "matches": ["http://hotfile.com/dl/*"],
+      "css": [],
+      "js": ["jquery.js", "hotfile.js"]
+    },
+    {
+      "matches": ["http://www.filesonic.com/*"],
+      "css": [],
+      "js": ["jquery.js", "filesonic.js"]
+    }
    ]
 }
