@@ -23,6 +23,11 @@
       "matches": ["http://www.filesonic.com/*"],
       "css": [],
       "js": ["jquery.js", "filesonic.js"]
+    },
+    {
+      "matches": ["http://www.fileserve.com/file/*"],
+      "css": [],
+      "js": ["jquery.js", "fileserve.js"]
     }
    ]
 }
