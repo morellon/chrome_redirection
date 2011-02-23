@@ -1,7 +1,8 @@
 {
   "name": "Redirect to Download Pages",
   "version": "1.0",
-  "description": "The first extension that I made.",
+  "description": "Avoid intermediary pages, go straight to the download page!",
+  "icons": {"128": "icon128.png"},
   "content_scripts": [
      {
        "matches": ["http://lix.in/*"],
@@ -13,8 +14,5 @@
        "css": [],
        "js": ["jquery.js", "upmirror.js"]
      }
-   ],
-  "browser_action": {
-    "default_icon": "icon.png"
-  }
+   ]
 }
